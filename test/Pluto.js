@@ -11,6 +11,6 @@ describe("Pluto Test", function(){
         expect(await plutov1.name()).to.equal("PLUTO");
 
         const plutov2= await upgrades.upgradeProxy(plutov1, this.PLUTOV2);
-        expect(await plutov2.version()).to.equal("V2!");
-    })
-})
+        expect(await plutov2.version()).to.equal("Version 2!");
+    });
+});

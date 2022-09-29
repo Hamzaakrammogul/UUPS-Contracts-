@@ -20,6 +20,6 @@ contract PLUTO is Initializable, ERC20Upgradeable, UUPSUpgradeable, OwnableUpgra
 contract PLUTOV2 is PLUTO{
  function version () pure public returns (string memory)
  {
-    return "V2!";
+    return "Version 2!";
  }
 }  
